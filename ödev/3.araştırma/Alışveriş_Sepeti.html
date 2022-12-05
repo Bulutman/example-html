@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alışveri Sepeti</title>
+
+
+    <script
+      src="https://kit.fontawesome.com/b2fe526f7a.js"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <style>
+        .baslik { color: white;
+            background-color: rgb(42, 44, 44);
+        }
+        .tek {
+            background-color: darkgrey;
+        }
+        .cift {
+            background-color: rgb(235, 233, 225);
+        }
+        .toplam { color: white;
+            background-color: rgb(100, 100, 100);
+        }
+         .alt-menu { 
+            display: flex;
+            align-items:flex-end;
+            justify-content:flex-end;
+         }
+
+         .ana-buto{
+            background-color: orange;
+         }
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Alışveriş Sepeti</h1>
+    <br> <br>
+
+    <table width="100%">
+        <thead>
+            <tr class="baslik">
+                <th align="left">Ürün Kodu</th>
+                <th align="left">Ürün Adı</th>
+                <th align="center">Miktar</th>
+                <th align="right">Birim Fiyatı</th>
+                <th align="right">Ara Toplam</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="tek">
+                <td>154654</td>
+                <td>Notebook</td>
+                <td align="center">1</td>
+                <td align="right">5.400 ₺</td>
+                <td align="right">5400 ₺</td>
+                <td align="center">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <i class="fa-regular fa-trash-can"></i> 
+            </tr>
+            <tr class="cift">
+                <td>456466</td>
+                <td>Klavye</td>
+                <td align="center">2</td>
+                <td align="right">80 ₺</td>
+                <td align="right">160 ₺</td>
+                <td align="center">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <i class="fa-regular fa-trash-can"></i> 
+            </tr>
+            <tr class="tek">
+                <td>564646</td>
+                <td>Monitor</td>
+                <td align="center">1</td>
+                <td align="right">700 ₺</td>
+                <td align="right">700 ₺</td>
+                <td align="center"><i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-regular fa-trash-can"></i></td>
+                 
+        
+                </tr>
+                 <tr class="cift">
+                    <td>123598</td>
+                    <td>Mouse</td>
+                    <td align="center">2</td>
+                    <td align="right">50 ₺</td>
+                    <td align="right">100 ₺</td>
+                    <td align="center"><i class="fa-solid fa-pen-to-square"></i>
+                        <i class="fa-regular fa-trash-can"></i></td>
+                 </tr>
+                 <tr class="tek"> 
+                    <td>613448</td>
+                    <td>Play Station</td>
+                    <td align="center">1</td>
+                    <td align="right">2.500 ₺</td>
+                    <td align="right">2.500 ₺</td>
+                    <td align="center"><i class="fa-solid fa-pen-to-square"></i>
+                        <i class="fa-regular fa-trash-can"></i></td>
+                    
+                 </tr>
+
+                 <tr class="cift">
+                    <td>789799</td>
+                    <td>Usb Bellek</td>
+                    <td align="center">3</td>
+                    <td align="right">120 ₺</td>
+                    <td align="right">360 ₺</td>
+                    <td align="center"><i class="fa-solid fa-pen-to-square"></i>
+                    <i class="fa-regular fa-trash-can"></i></td>
+                    
+                    
+                 </tr>
+                 <tr align="right" class="toplam">
+                    <td colspan="4">TOPLAM</td>
+                    <td>9.220 ₺</td>
+                    <td></td>
+                 </tr>
+
+
+
+
+
+
+        </tbody>
+
+
+
+
+
+
+    </table>
+    <br>
+    <div class="alt-menu">
+        <button class="ana-buton">
+            <i class="fa-solid fa-cart-shopping" style="color: black;"></i>
+            Alışverişe Devam
+        </button>
+        <button class="ana-buton">
+            <i class="fa-solid fa-credit-card" style="color: black;"></i>
+            Ödemeye Geç
+            
+        </button>
+    </div>
+    
+                                                     
+
+
+
+
+
+
+</body>
+</html>
